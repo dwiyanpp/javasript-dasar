@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch</title>
+</head>
+<body>
+
+
+    <script>
+
+        // user milih
+        confirm("kereta tersedia : bengawan, gaya baru malam, gumarang, senja utama solo, progo");
+        let kereta = prompt("cari kereta.");
+
+        switch(kereta) {
+            case "bengawan":
+            case "gaya baru malam":
+                alert("keberangkatan pukul 13.20");
+                break;
+            case "gumarang":
+                alert("keberangkatan pukul 15.00");
+                break;
+            case "senja utama solo":
+                alert("keberangkatan pukul 18.45");
+                break;
+            case "progo":
+                alert("keberangkatan pukul 23.00");
+                break;
+            default:
+                alert("keberangkatan tidak ditemukan");
+                break;
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

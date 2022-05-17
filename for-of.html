@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for of</title>
+</head>
+<body>
+
+
+    <script>
+
+        const nama = ["dwiyan", " purbo", "prastio"];
+
+        for(const names of nama) {
+            document.writeln(` ${names}`);
+        }
+
+        const namaPengguna = "dwiyan prastio";
+        for(const pengguna of namaPengguna) {
+            document.writeln(`${pengguna}`);
+        }
+
+
+        // jika dipaksa dipakai untuk mengambil data object akan error
+        const namaLengkap = {
+            namaDepan : "dwiyan",
+            namaBelakang : "prastio"
+        };
+
+        for(const names of namaLengkap) {
+            document.writeln(`${names}`)
+        }
+
+        // silahkan buka console log untuk mengetahui errornya
+
+    </script>
+    
+</body>
+</html>

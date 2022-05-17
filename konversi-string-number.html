@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi</title>
+</head>
+<body>
+
+
+    <script>
+
+        let angka1 = 10;
+        let angka2 = '100';
+
+        const hasil = angka1 + Number(angka2); // konversi string menjadi number
+        console.info(`${hasil}`);
+
+
+
+
+        // prompt menghasilkan output string
+        let pilihan1 = prompt("masukan angka pertama"); 
+        let pilihan2 = prompt("masukan angka kedua");
+
+        const hasilPilihan = parseInt(pilihan1) + parseInt(pilihan2);
+
+        const tampilanHasil = confirm(`hasil kamu ${hasilPilihan}`);
+        console.info(tampilanHasil);
+
+    </script>
+    
+</body>
+</html>

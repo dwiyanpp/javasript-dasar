@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in</title>
+</head>
+<body>
+
+
+    <script>
+
+        // const mhs = {
+        //     "nama lengkap" : prompt("masukan nama anda"),
+        //     nim : prompt("masukan nomor mahasiswa anda"),
+        //     jurusan: "sistem informasi"
+        // };
+
+        // for(const property in mhs) {
+        //     document.writeln(`<p>${property} : ${mhs[property]}</p>`);
+        // }
+
+
+
+        const kereta = {
+            noKarcis : 1223343,
+            "nama Kereta" : "brantas",
+            "jadwal Keberangkatan" : 12.51
+        };
+
+        // tanpa for in
+        console.info(kereta["nama Kereta"]);
+
+        for(const property in kereta) {
+            console.log(`${property} = ${kereta[property]}`);
+        }
+
+    </script>
+    
+</body>
+</html>

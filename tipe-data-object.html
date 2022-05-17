@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Object</title>
+</head>
+<body>
+
+
+    <script>
+
+        // nilai persyaratan
+        const id_karyawan = 12164604;
+        const tempatKuliah = "universitas bina sarana informatika"; // wajib kampus
+        const umurWajib = 17;
+
+        // input mahasiswa
+        let firstName = "Dwiyan";
+        let lastName = " Purbo Prastio";
+        let fullName = firstName + lastName;
+        let umur = 17;
+        let izinHadir = "universitas bina sarana informatika"; // input mahasiswa
+        
+
+
+        // id mahasiswa
+        console.debug(`nama : ${fullName} dengan id karyawan ${id_karyawan}`); 
+        
+
+        // persyaratan 1
+        console.warn(`Umur kamu ${umur} belum bisa lulus (wajib berumur : ${umurWajib} tahun)`);
+        
+
+        // persyaratan 2
+        console.error(`kamu mahasiswa ${izinHadir == tempatKuliah} maka memenuhi persyaratan`);
+        
+
+        // persyaratan 3
+        const persyaratan3 = umur >= umurWajib && izinHadir == tempatKuliah;
+        console.info(`umur dan kampus kamu ${persyaratan3}`); 
+
+        
+        const dataMhs = {
+            "nama lengkap" : prompt("masukan nama lengkap"),
+            umurMhs : parseInt(prompt("masukan umur anda")),
+            tempatKluliah : prompt("masukan tempat kuliah anda")
+        };
+
+
+
+        console.table(dataMhs);
+
+
+
+
+    </script>
+    
+</body>
+</html>

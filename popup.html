@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let konfirmasi = confirm("apakah anda ingin melanjutkan?");
+
+        if(konfirmasi) {
+            let name = prompt("masukan nama anda");
+            alert(`Hai, ${name} silahkan absen dulu yuk.`);
+            confirm('lanjut absen ?');
+
+            const absenMasuk = 12164606;
+            
+
+            let idMahasiswa = prompt("masukan id anda untuk absen");
+
+            if(absenMasuk == idMahasiswa) {
+                alert('Anda berhasil absen, Terima Kasih!');
+            } else {
+                alert('id anda salah');
+            }
+
+        } else {
+            alert("Terima Kasih!");
+        }
+
+    </script>
+</body>
+</html>

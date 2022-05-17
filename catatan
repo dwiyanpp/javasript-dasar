@@ -1,0 +1,43 @@
+* Tipe data : Number, boolean, string, array, object, undefined, null
+    - number : number notation (binear dll)
+    - boolean : true & false
+    - string : escape sequence (jum'at)
+    - array : .push(), .length , [index], [index] = value, delete array[index]
+    - object
+    - undefined : data belum dideklarasikan
+    - null
+
+* Variabel : menyimpan data. ubah kata var sekarang menjadi let (nilai bisa diubah) atau const (nilai tidak bisa du=iubah)
+
+* Operator : aritmatika, perbandingan, logika, typeOf, in, ternary, nullish coalicing, optional chaining, false truthy
+    - aritmatika =>             + - * / %
+    - perbandingan =>           < > <= >= == === !=
+    - logika =>         && || !
+    - typeOf => untuk mengetahui jenis tipe data
+    - in => untuk mengetahui apakah ada property atau index didalam object 
+    - ternary => jika kasus percabangan sederhana
+    - nullish coalicing => mengatasi jika parameter null atau undefined
+    - optional chaining => mengatasi jika mencari/mengakses data yang null/undefined 
+    - false truthy
+
+* Console : console.debug, console.info, console.warn, console.error
+
+* String template
+
+* Konversi string dan number : parseInt, parseFloat, Number (akan NaN jika diisi string) , number.toString
+    - Nan -> function isNaN()
+
+* percabangan : if, switch (dipakai untuk ==)
+
+* popup : alert, prompt, confirm
+
+* perulangan : 
+    - for
+    - while
+    - do while => minimal sekali ditampilkan walaupun input pertama bernilai false
+    - for in => mengambil data-data didalam object agar tidak manual
+    - for of => mengambil data-data didalam array, string dll yang iterable
+
+* break (memberhentikan total/ mematikan perulangan) , continue (memberhentikan kondisi itu lalu lanjut ke kondisi berikutnya)
+
+* function : sebuah blok kode yang bisa dipanggil, function parameter : menerima data

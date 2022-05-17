@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function return value</title>
+</head>
+<body>
+
+
+    <script>
+
+        function testResult(isiPengguna) {
+            const isi = `angka yang anda masukan ${isiPengguna}`;
+            return isi;
+        }
+
+        const result = testResult(20);
+
+        document.writeln(`${result}`);
+
+
+        document.writeln(`<br><br>`);
+
+
+        
+
+
+        function choiseOfTrain(user) {
+            if(user == "pangrango") {
+                const jam = `kereta ${user} berangkat pukul 14.34`;
+                return jam;
+            } else if (user == "siliwangi") {
+                const jam = `kereta ${user} berangkat pukul 16.20`;
+                return jam;
+            } else {
+                const dtUndefined = user ?? "keberangkatan tidak ditemukan";
+                return dtUndefined
+            }
+        }
+
+
+        let user = choiseOfTrain("brantas");
+
+        document.writeln(`kereta berangkat pukul ${user}`);    
+    
+
+
+    </script>
+    
+</body>
+</html>

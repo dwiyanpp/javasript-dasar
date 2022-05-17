@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan</title>
+</head>
+<body>
+
+
+    <script>
+
+        const id_karyawan = 12164604;
+        let firstName = "Dwiyan";
+        let lastName = " Purbo Prastio";
+        let fullName = firstName + lastName;
+        let umur = 16;
+
+        const wajibLulus = 17;
+
+        // apakah mahasiswa bsi
+        const tempatKuliah = "universitas bina sarana informatika"; // wajib kampus
+
+        let izinHadir = "universitas bina sarana informatika"; // input mahasiswa
+
+        let izin = izinHadir == tempatKuliah;
+
+        
+        document.writeln("Nama : " + fullName + " dengan id karyawan " + id_karyawan);
+        document.writeln("</br>");
+        document.writeln("Umur kamu " + umur + " belum bisa lulus (wajib LULUS : " + wajibLulus + " tahun)");
+        document.writeln("</br>");
+        document.writeln("<p> kamu mahasiswa " + izin + " maka boleh ikut hadir </p>")
+
+
+    </script>
+    
+</body>
+</html>

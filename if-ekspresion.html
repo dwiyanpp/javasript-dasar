@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if ekspresion</title>
+</head>
+<body>
+
+
+    <script>
+
+        const kunci = 080996;
+        let masukanKunci = prompt("masukan kunci untuk membuka");
+
+        if(masukanKunci == kunci) {
+
+            
+            const mhs = {
+                "nama mahasiswa" : prompt("Good, masukan nama anda"),
+                kelas : prompt("masukan kelas anda")
+            };
+        
+
+            
+            if(kelas == "1a") {
+                console.warn("ruang 102");
+            } else if(kelas == "2a") {
+                console.warn("ruang 204");
+            } else {
+                console.error("ruang tidak ditemukan")
+            }
+
+
+
+            console.info(`Hai, ${mhs["nama mahasiswa"]}. Selamat belajar`);
+        } else {
+            console.error("anda memasukan kode kuliah yang salah!");
+        }
+ 
+    </script>
+    
+</body>
+</html>
