@@ -40,4 +40,8 @@
 
 * break (memberhentikan total/ mematikan perulangan) , continue (memberhentikan kondisi itu lalu lanjut ke kondisi berikutnya)
 
-* function : sebuah blok kode yang bisa dipanggil, function parameter : menerima data
+* function : sebuah blok kode yang bisa dipanggil
+    - function parameter : menerima data
+    - function value : mengembalikan nilai yang diisi user, contoh confirm atau prompt
+    - function parameter optional : parameter yang kalau tidak diisi nilainya, akan undefined / tidak error
+    - function parameter default : parameter yang diisi sesuai yang kita mau ketika user isi undefined
