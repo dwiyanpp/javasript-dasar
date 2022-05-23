@@ -45,3 +45,5 @@
     - function value : mengembalikan nilai yang diisi user, contoh confirm atau prompt
     - function parameter optional : parameter yang kalau tidak diisi nilainya, akan undefined / tidak error
     - function parameter default : parameter yang diisi sesuai yang kita mau ketika user isi undefined
+    - rest parameter : untuk value lebih dari satu
+    - function sebagai value : menyimpan function kedalam variabel
