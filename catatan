@@ -13,10 +13,10 @@
     - aritmatika =>             + - * / %
     - perbandingan =>           < > <= >= == === !=
     - logika =>         && || !
-    - typeOf => untuk mengetahui jenis tipe data
-    - in => untuk mengetahui apakah ada property atau index didalam object 
-    - ternary => jika kasus percabangan sederhana
-    - nullish coalicing => mengatasi jika parameter null atau undefined
+    - typeOf => untuk mengetahui jenis tipe data. contoh : typeOf.html
+    - in => untuk mengetahui apakah ada property atau index didalam object. contoh : in.html
+    - ternary => jika kasus percabangan sederhana. contoh : ternary.html
+    - nullish coalicing => mengatasi jika parameter null atau undefined.  contoh : nullish.html
     - optional chaining => mengatasi jika mencari/mengakses data yang null/undefined 
     - false truthy
 
